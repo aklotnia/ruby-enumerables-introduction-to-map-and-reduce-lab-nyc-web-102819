@@ -46,5 +46,3 @@ def reduce_to_total(array, starting_point*)
     end
   total
 end
-
-def 
