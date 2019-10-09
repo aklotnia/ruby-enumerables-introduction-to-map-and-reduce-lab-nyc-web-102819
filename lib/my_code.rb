@@ -70,9 +70,11 @@ def reduce_to_any_true(array)
     if array[i]
       new_array << array[i]
     else
-      return FALSE
+      nil
     end
     i += 1
   end
+  if new_array.length == 0
+    return FALSE
   new_array
 end
