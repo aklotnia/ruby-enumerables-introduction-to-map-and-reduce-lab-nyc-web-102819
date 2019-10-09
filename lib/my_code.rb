@@ -78,3 +78,4 @@ def reduce_to_any_true(array)
     return FALSE
   new_array
 end
+end
