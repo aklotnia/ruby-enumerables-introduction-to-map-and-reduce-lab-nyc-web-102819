@@ -71,7 +71,7 @@ def reduce_to_any_true(array)
       new_array << array[i]
       return TRUE
     else
-      return nil
+      return FALSE
     end
     i += 1
   end
