@@ -64,3 +64,15 @@ def reduce_to_all_true(array)
 end
 
 def reduce_to_any_true(array)
+  i = 0
+  new_array = []
+  while i < array.length
+    if array[i]
+      new_array << array[i]
+    else
+      return nil
+    end
+    i += 1
+  end
+  new_array
+end
