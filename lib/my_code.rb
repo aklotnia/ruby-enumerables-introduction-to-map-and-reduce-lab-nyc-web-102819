@@ -49,4 +49,15 @@ def reduce_to_total(array, starting_point = nil)
   total
 end
 
-def reduce_to_all_true(array])
+def reduce_to_all_true(array)
+  i = 0
+  new_array = []
+  while i < array.length
+    if array[i]
+      new_array << array[i]
+    else
+      nil
+    end
+  end
+  new_array
+end
