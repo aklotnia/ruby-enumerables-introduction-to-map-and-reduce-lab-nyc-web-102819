@@ -56,7 +56,7 @@ def reduce_to_all_true(array)
     if array[i]
       new_array << array[i]
     else
-      nil
+      return nil
     end
     i += 1
   end
