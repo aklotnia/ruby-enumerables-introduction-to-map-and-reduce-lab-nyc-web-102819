@@ -70,7 +70,6 @@ def reduce_to_any_true(array)
     if array[i]
       new_array << array[i]
     else
-      nil
     end
     i += 1
   end
