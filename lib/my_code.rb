@@ -68,12 +68,10 @@ def reduce_to_any_true(array)
   new_array = []
   while i < array.length
     if array[i]
-      new_array << array[i]
       return TRUE
     else
       return FALSE
     end
     i += 1
   end
-  new_array
 end
