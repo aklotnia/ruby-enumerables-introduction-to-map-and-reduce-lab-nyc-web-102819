@@ -62,3 +62,5 @@ def reduce_to_all_true(array)
   end
   new_array
 end
+
+def reduce_to_any_true(array)
