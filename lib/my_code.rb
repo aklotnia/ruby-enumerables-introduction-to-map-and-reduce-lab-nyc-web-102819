@@ -58,6 +58,7 @@ def reduce_to_all_true(array)
     else
       nil
     end
+    i += 1
   end
   new_array
 end
